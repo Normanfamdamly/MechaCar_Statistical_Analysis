@@ -35,3 +35,15 @@ The R Script was applied to the MechaCar_mpg.csv to get the following coefficien
 
 -  The R-square measures the proportion of variation in the dependent variable. Our R-squared is .7149 which is a strong correlation for the dataset we are reviewing for MechaCar. While not the only variable for consideration is doesn’t provide a positive attribute to consider.
 
+## Summary Statistics on Suspension Coils
+---
+The Mean for the manufacturing lots is 1498.78 and the Median is 1500 with a Variance of 62.29356 and a Standard Deviation of 7.892627.
+
+![Total_Summary.png](https://github.com/Normanfamdamly/MechaCar_Statistical_Analysis/blob/main/images/Total_Summary.png)
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+![Lot_Summary.png](https://github.com/Normanfamdamly/MechaCar_Statistical_Analysis/blob/main/images/Lot_Summary.png)
+
+Over all Variance is 62 which is less than 100 which is within the required design specifications of under 100 PSI.  But when you review the data by Lots you see a large difference between the lots.  Lots 1 and 2 have Variances of 1 and 7 respectively, but Lot 3 is 170 which is greater than the 100 specifications.
+
