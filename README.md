@@ -70,3 +70,26 @@ Over all Variance is 62 which is less than 100 which is within the required desi
 
 ## Study Design: MechaCar vs Competition
 ---
+Using my coding knowledge and my knowledge of statistical data will allow me to compare MechaCar against other vehicle manufactures. Metrics we may consider for future comparison may be some of the following:
+      - cost
+      - color
+      - fuel efficiency (city vs. highway)
+      - horsepower
+      - safety rating
+
+1. What metric or metrics are you going to test?
+      - fuel efficiency (city vs. highway)
+      - horsepower
+      - safety rating
+
+2. What is the null hypothesis or alternative hypothesis?
+
+- The null hypothesis is that the safety rating is zero at the mean. The alternative hypothesis is that the      safety rating is not zero at the mean.
+
+3. What statistical test would you use to test the hypothesis? And why?
+
+- Using a multiple linear regression statistical summary would show how the variables impact the safety   ratings for MechaCar and their competitors. This would look at frontal impact, side impact and take into account both average and non-average size humans in the testing. This statistical test would give us the highest correlation/predictability.
+
+4. What data is needed to run the statistical test?
+
+-A random sample of n > 45 for MechaCar and their competitor. I would need data on the safety ratings for all the crash tests, highway fuel efficiency, and horsepower.  Then this data would need to be crunched and analyzed.
