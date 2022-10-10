@@ -47,3 +47,49 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 Over all Variance is 62 which is less than 100 which is within the required design specifications of under 100 PSI.  But when you review the data by Lots you see a large difference between the lots.  Lots 1 and 2 have Variances of 1 and 7 respectively, but Lot 3 is 170 which is greater than the 100 specifications.
 
+## T-Tests on Suspension Coils
+---
+![Suspension_Coil_PSI.png](https://github.com/Normanfamdamly/MechaCar_Statistical_Analysis/blob/main/images/Suspension_Coil_PSI.png)
+
+- All Manufacturing Lots as seen above have a MEAN of 1498.78 which we saw in the summary statistics above and a p-value of 1 which we cannot reject the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean (1500).
+
+![Lot1_TTest.png](https://github.com/Normanfamdamly/MechaCar_Statistical_Analysis/blob/main/images/Lot1_TTest.png)
+
+- Lot 1 has a p-value that is .000000000001568 which is less than .05(alpha) which is statistically significant  and indicates strong evidence against the null hypotheses as these is less than a 5% probability the null is correct. Therefore, we accept the alternative hypothesis.
+
+![Lot2_TTest.png](https://github.com/Normanfamdamly/MechaCar_Statistical_Analysis/blob/main/images/Lot2_TTest.png)
+
+- Lot 2 has a p-value of .5911 > .05 which means Lot 2 is not statically significant from the normal distribution and normality can be assumed. The mean falls with the 95% confidence interval.
+
+![Lot3_TTest.png](https://github.com/Normanfamdamly/MechaCar_Statistical_Analysis/blob/main/images/Lot3_TTest.png)
+
+- Lot 3 is .1589 which is > .05 and is not statically significant and indicates strong evidence for a null hypothesis and a rejection of the alternative hypothesis.
+Over all Variance is 62 which is less than 100 which is within the required design specifications of under 100 PSI.  But when you review the data by Lots you see a large difference between the lots.  Lots 1 and 2 have Variances of 1 and 7 respectively, but Lot 3 is 170 which is greater than the 100 specifications.
+
+
+
+## Study Design: MechaCar vs Competition
+---
+Using my coding knowledge and my knowledge of statistical data will allow me to compare MechaCar against other vehicle manufactures. Metrics we may consider for future comparison may be some of the following:
+      - cost
+      - color
+      - fuel efficiency (city vs. highway)
+      - horsepower
+      - safety rating
+
+1. What metric or metrics are you going to test?
+      - fuel efficiency (city vs. highway)
+      - horsepower
+      - safety rating
+
+2. What is the null hypothesis or alternative hypothesis?
+
+- The null hypothesis is that the safety rating is zero at the mean. The alternative hypothesis is that the      safety rating is not zero at the mean.
+
+3. What statistical test would you use to test the hypothesis? And why?
+
+- Using a multiple linear regression statistical summary would show how the variables impact the safety   ratings for MechaCar and their competitors. This would look at frontal impact, side impact and take into account both average and non-average size humans in the testing. This statistical test would give us the highest correlation/predictability.
+
+4. What data is needed to run the statistical test?
+
+-A random sample of n > 45 for MechaCar and their competitor. I would need data on the safety ratings for all the crash tests, highway fuel efficiency, and horsepower.  Then this data would need to be crunched and analyzed.
